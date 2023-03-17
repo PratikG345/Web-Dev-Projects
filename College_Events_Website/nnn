@@ -1,0 +1,39 @@
+<p>*Technical</p>
+    <input type="checkbox" name="checkbox" id=""> Online Programming Contest <br>
+    <input type="checkbox" name="checkbox" id=""> Treasure Hunt <br>
+    <input type="checkbox" name="checkbox" id=""> Project Expo <br>
+    <input type="checkbox" name="checkbox" id=""> Paper Presentation <br>
+    <input type="checkbox" name="checkbox" id=""> Code Hunt <br>
+    <input type="checkbox" name="checkbox" id=""> Final Destiny <br>
+    <input type="checkbox" name="checkbox" id=""> Poster Presentation <br>
+    <input type="checkbox" name="checkbox" id=""> Geek Battle <br>
+    <input type="checkbox" name="checkbox" id=""> ENGADGET <br> 
+
+    <div class="a2">
+        <p>(Please don't forget to bring College CSFest ticket on the day of the event)</p>
+        <br>
+        <br>
+        <h4>Your Information:</h4>
+        <form action="connect.php" method="post">
+        <input type="text" placeholder="*Name" name="Name"><br>
+        <input type="text" placeholder="*College" name="College"><br>
+        <input type="text" placeholder="*Branch" name="Branch"><br>
+        <input type="text" placeholder="*Email" name="Email"><br>
+        <input type="text" placeholder="*Phone" name="Phone"><br>
+        <br>
+    
+        <h4>Events You Want To register:</h4> 
+        <p>*Technical</p>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Online Programming Contest <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Treasure Hunt <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Project Expo <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Paper Presentation <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Code Hunt <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Final Destiny <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Poster Presentation <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> Geek Battle <br>
+        <input type="checkbox" name="checkbox" id="" value="techno[]"> ENGADGET <br> 
+            
+    
+        <button type="submit" name="Register">Register</button>
+    </form>

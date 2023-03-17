@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Admin_style.css">  
+    <title>Register</title>
+    <style>
+        .a2{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href=""><img src="logo.png" alt="" class="img1" width="30" height="30"> SIEM</a>
+        <a href="#news">Home</a>
+        <a href="#">Technical Events</a>
+        <a href="#">Non-Technical Events</a>
+            <a href="Sponsors.html">Sponsors</a>
+            <a href="Register.html">Register</a>
+        </div>
+        <br>
+        <h3>Enter Your Details:</h3>
+
+        <form method="POST" action="connect.php">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" required>
+            <br>
+            <label for="college">College:</label>
+            <input type="text" name="college" id="college" placeholder="Enter College" required>
+            <br>
+            <label for="branch">Branch:</label>
+            <input type="text" name="branch" id="branch" placeholder="Enter Branch" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter Phone" required>
+            <br>
+            <br>
+            
+            <label>Events You Want To register:</label>
+            <p>*Technical</p>
+            <input type="checkbox" name="interests[]" value="Online Programming Contest"> Online Programming Contest
+            <br>
+            <input type="checkbox" name="interests[]" value="Treasure Hunt"> Treasure Hunt
+            <br>
+            <input type="checkbox" name="interests[]" value="Project Expo"> Project Expo
+            <br>
+            <input type="checkbox" name="interests[]" value="Paper Presentation"> Paper Presentation
+            <br>
+            <input type="checkbox" name="interests[]" value="Code Hunt"> Code Hunt
+            <br>
+            <input type="checkbox" name="interests[]" value="Final Destiny"> Final Destiny
+            <br>
+            <input type="checkbox" name="interests[]" value="traveling"> Poster Presentation
+            <br>
+            <input type="checkbox" name="interests[]" value="Geek Battle"> Geek Battle
+            <br>
+            <input type="checkbox" name="interests[]" value="ENGADGET"> ENGADGET
+            
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+          
+
+    </div>
+
+</body>
+</html>
